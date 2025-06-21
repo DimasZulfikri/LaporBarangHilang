@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lapor Barang Hilang</string>
+    <string name="default_welcome_message">Selamat Datang!</string>
+    <string name="add_report_description">Tambah Laporan</string>
+</resources>

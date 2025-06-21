@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/default_welcome_message" android:visibility="gone"/> <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerViewReports"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:clipToPadding="false"
+    android:scrollbars="vertical"
+    android:layout_below="@id/welcomeTextView"/> <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fabAddReport"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:src="@android:drawable/ic_input_add"
+    app:tint="@android:color/white"
+    app:backgroundTint="@color/primaryColor"
+    android:contentDescription="@string/add_report_description"/> </RelativeLayout>

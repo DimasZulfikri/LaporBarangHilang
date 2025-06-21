@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "668980381376",
+    "firebase_url": "https://laporbaranghilangapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "laporbaranghilangapp",
+    "storage_bucket": "laporbaranghilangapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668980381376:android:452bd04f1b979dacaacf25",
+        "android_client_info": {
+          "package_name": "com.example.laporbaranghilang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVX7uSxvilunmU8SInG2XH9r5pfM6cUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668980381376:android:c237c0a7ef2b1a5daacf25",
+        "android_client_info": {
+          "package_name": "com.yourcompany.laporbaranghilang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVX7uSxvilunmU8SInG2XH9r5pfM6cUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
